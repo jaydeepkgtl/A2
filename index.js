@@ -16,7 +16,7 @@ const authRouter = require("./routes/authRouter");
 const connectDB = require("./utils/connect");
 const { local } = require("./auth");
 
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT ?? 3001;
 const SECRET = process.env.SECRET ?? "AStrongSecret";
 
 connectDB()
